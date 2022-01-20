@@ -120,6 +120,7 @@ public class main {
             }
         } while (!salida);
         JOptionPane.showMessageDialog(null, "¡Gracias por jugar!");
+        JOptionPane.showMessageDialog(null, "¡Adios!");
     }
 
     static int ganador(String[][] tablero) {
